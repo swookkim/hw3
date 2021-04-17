@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Write the recipe (algorithm) in the comments. Then, write the code.
 
   // Create variables for a passenger name 
-  let passengerFirstName = ride.passengerDetails.first} 
+  let passengerFirstName = ride.passengerDetails.first
   let passengerLastName = ride.passengerDetails.last
 
   // Create a varible for a passenger phone number

@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', async function() {
     serviceLevel = `Noover X`
   }
 
-  // Create a human readable sentence using the data above
+  // Create a human readable format representing a customer request
 
-  let sentence = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUp}. Drop off at ${dropOff}` 
-  console.log(sentence)
+  let format = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUp}. Drop off at ${dropOff}` 
+  console.log(format)
 
   // 🔥 YOUR CODE ENDS HERE 🔥
 })

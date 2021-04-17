@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // 🔥 YOUR CODE GOES HERE 🔥
   // Write the recipe (algorithm) in the comments. Then, write the code.
+
+  // Passenger First Name
+  let passengerFirstName = ride.passengerDetails.first
   
   // 🔥 YOUR CODE ENDS HERE 🔥
 })

@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Create a human readable format representing a customer request
 
-  let format = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUp}. Drop off at ${dropOff}` 
+  let format = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUp}. Drop off at ${dropOff}.` 
   console.log(format)
 
   // 🔥 YOUR CODE ENDS HERE 🔥

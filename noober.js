@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   let serviceLevel =``
   if (ride.purpleRequested == true){
     serviceLevel = `Noover Purple`
-  } else if (ride.numberOfPassenger > 3){
+  } else if (ride.numberOfPassengers > 3){
     serviceLevel = 'Noover XL'
   } else {
     serviceLevel = `Noover X`

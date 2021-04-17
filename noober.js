@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', async function() {
   let pickUp = `${ride.pickupLocation.address}, ${ride.pickupLocation.city}, ${ride.pickupLocation.state} ${ride.pickupLocation.zip}`
   console.log(pickUp)
 
+  // Drop Off Location
+  
+
 
 
   // 🔥 YOUR CODE ENDS HERE 🔥

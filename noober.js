@@ -13,12 +13,9 @@ document.addEventListener('DOMContentLoaded', async function() {
   // 🔥 YOUR CODE GOES HERE 🔥
   // Write the recipe (algorithm) in the comments. Then, write the code.
 
-  // Passenger First Name
-  let passengerFirstName = ride.passengerDetails.first
-  
-  // Passenger Last Name
-  let passengerLastName = ride.passengerDetails.last
- 
+  // Passenger Name
+  let passengertName = `${ride.passengerDetails.first} ${ride.passengerDetails.last}`
+
   // Passenger Phone Number
   let PhoneNumber = ride.passengerDetails.PhoneNumber
  
@@ -40,7 +37,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Human readable format
 
-  let format = ``
+  let format = `${serviceLevel}: ${}`
 
 
 

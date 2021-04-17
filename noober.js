@@ -20,11 +20,17 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Create a varible for a passenger phone number
   let phoneNumber = ride.passengerDetails.phoneNumber
  
-  // Create a variable for a pick up location
-  let pickUp = `${ride.pickupLocation.address}, ${ride.pickupLocation.city}, ${ride.pickupLocation.state} ${ride.pickupLocation.zip}`
+  // Create variables for a pick up location
+  let pickUpAddress = ride.pickupLocation.address 
+  let pickUpCity = ride.pickupLocation.city 
+  let pickUpState = ride.pickupLocation.state 
+  let pickUpZip = ride.pickupLocation.zip
 
-  // Create a variable for a drop off location
-  let dropOff = `${ride.dropoffLocation.address}, ${ride.dropoffLocation.city}, ${ride.dropoffLocation.state} ${ride.dropoffLocation.zip}`
+  // Create variables for a drop off location
+  let dropOffAddress = ride.dropoffLocation.address 
+  let dropOffCity = ride.dropoffLocation.city
+  let dropOffState = ride.dropoffLocation.state 
+  let dropOffZip = ride.dropoffLocation.zip
 
   // Create conditional logic to confirm the service level
   let serviceLevel =``
@@ -38,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Create a human readable format representing a customer request
 
-  let format = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUp}. Drop off at ${dropOff}.` 
+  let format = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUpAddress}, ${pickUpCity}, ${pickUpState} ${pickUpZip}. Drop off at ${dropOffAddress}, ${dropOffCity}, ${dropOffState} ${dropOffZip}.` 
   console.log(format)
 
   // 🔥 YOUR CODE ENDS HERE 🔥

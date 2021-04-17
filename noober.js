@@ -15,6 +15,17 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Passenger First Name
   let passengerFirstName = ride.passengerDetails.first
-  console.log(passengerFirstName)
+  
+  // Passenger Last Name
+  let passengerLastName = ride.passengerDetails.last
+ 
+  // Passenger Phone Number
+  let PhoneNumber = ride.passengerDetails.PhoneNumber
+ 
+  // Pick Up Location
+  let pickUp = ride.pickupLocation
+  console.log(pickUp)
+
+
   // 🔥 YOUR CODE ENDS HERE 🔥
 })

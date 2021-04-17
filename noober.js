@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   let passengerLastName = ride.passengerDetails.last
 
   // Create a varible for a passenger phone number
-  let phoneNumber = ride.passengerDetails.PhoneNumber
+  let phoneNumber = ride.passengerDetails.phoneNumber
  
   // Create a variable for a pick up location
   let pickUp = `${ride.pickupLocation.address}, ${ride.pickupLocation.city}, ${ride.pickupLocation.state} ${ride.pickupLocation.zip}`

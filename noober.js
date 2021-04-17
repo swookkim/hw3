@@ -35,11 +35,11 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Create conditional logic to confirm the service level
   let serviceLevel =``
   if (ride.purpleRequested == true){
-    serviceLevel = `Noover Purple`
+    serviceLevel = `Noover Purple Passenger`
   } else if (ride.numberOfPassengers > 3){
-    serviceLevel = 'Noover XL'
+    serviceLevel = 'Noover XL Passenger'
   } else {
-    serviceLevel = `Noover X`
+    serviceLevel = `Noover X Passenger`
   }
 
   // Create a human readable format representing a customer's request

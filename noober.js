@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', async function() {
   let PhoneNumber = ride.passengerDetails.PhoneNumber
  
   // Pick Up Location
-  let pickUp = `${ride.pickupLocation.address}, ${ride.pickupLocation.city}`
+  let pickUp = `${ride.pickupLocation.address}, ${ride.pickupLocation.city}, ${ride.pickupLocation.state} ${ride.pickupLocation.zip}`
+  console.log(pickUp)
 
 
 

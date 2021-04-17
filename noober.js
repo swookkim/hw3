@@ -13,19 +13,20 @@ document.addEventListener('DOMContentLoaded', async function() {
   // 🔥 YOUR CODE GOES HERE 🔥
   // Write the recipe (algorithm) in the comments. Then, write the code.
 
-  // Passenger Name
-  let passengertName = `${ride.passengerDetails.first} ${ride.passengerDetails.last}`
+  // Create variables for a passenger name 
+  let passengerFirstName = ride.passengerDetails.first} 
+  let passengerLastName = ride.passengerDetails.last
 
-  // Passenger Phone Number
-  let PhoneNumber = ride.passengerDetails.PhoneNumber
+  // Create a varible for a passenger phone number
+  let phoneNumber = ride.passengerDetails.PhoneNumber
  
-  // Pick Up Location
+  // Create a variable for a pick up location
   let pickUp = `${ride.pickupLocation.address}, ${ride.pickupLocation.city}, ${ride.pickupLocation.state} ${ride.pickupLocation.zip}`
 
-  // Drop Off Location
+  // Create a variable for a drop off location
   let dropOff = `${ride.dropoffLocation.address}, ${ride.dropoffLocation.city}, ${ride.dropoffLocation.state} ${ride.dropoffLocation.zip}`
 
-  // Service Level
+  // Create conditional logic to confirm the service level
   let serviceLevel =``
   if (purpleRequested == true){
     serviceLevel = `Noover Purple`
@@ -35,12 +36,9 @@ document.addEventListener('DOMContentLoaded', async function() {
     serviceLevel = `Noover X`
   }
 
-  // Human readable format
+  // Create a human readable sentence using the data above
 
-  let format = `${serviceLevel}: ${}`
-
-
-
+  let sentence = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUp}. Drop off at ${dropOff}` 
 
 
   // 🔥 YOUR CODE ENDS HERE 🔥

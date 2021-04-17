@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Create a human readable sentence using the data above
 
   let sentence = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUp}. Drop off at ${dropOff}` 
-
+  console.log(sentence)
 
   // 🔥 YOUR CODE ENDS HERE 🔥
 })

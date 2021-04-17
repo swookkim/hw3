@@ -38,8 +38,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     serviceLevel = `Noover Purple`
   } else if (ride.numberOfPassenger > 3){
     serviceLevel = 'Noover XL'
-  } else {
-    serviceLevel = `Noover X`
+  }   else {
+      serviceLevel = `Noover X`
   }
 
   // Create a human readable format representing a customer request

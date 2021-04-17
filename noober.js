@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     serviceLevel = `Noover X`
   }
 
-  // Create a human readable format representing a customer request
+  // Create a human readable format representing a customer's request
 
   let format = `${serviceLevel}: ${passengerFirstName} ${passengerLastName} - ${phoneNumber}. Pickup at ${pickUpAddress}, ${pickUpCity}, ${pickUpState} ${pickUpZip}. Drop-off at ${dropOffAddress}, ${dropOffCity}, ${dropOffState} ${dropOffZip}.` 
   console.log(format)

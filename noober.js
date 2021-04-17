@@ -13,20 +13,20 @@ document.addEventListener('DOMContentLoaded', async function() {
   // 🔥 YOUR CODE GOES HERE 🔥
   // Write the recipe (algorithm) in the comments. Then, write the code.
 
-  // Create variables for a passenger name 
+  // Create a variable for a passenger name 
   let passengerFirstName = ride.passengerDetails.first
   let passengerLastName = ride.passengerDetails.last
 
   // Create a varible for a passenger phone number
   let phoneNumber = ride.passengerDetails.phoneNumber
  
-  // Create variables for a pick up location
+  // Create a variable for a pick up location
   let pickUpAddress = ride.pickupLocation.address 
   let pickUpCity = ride.pickupLocation.city 
   let pickUpState = ride.pickupLocation.state 
   let pickUpZip = ride.pickupLocation.zip
 
-  // Create variables for a drop off location
+  // Create a variable for a drop off location
   let dropOffAddress = ride.dropoffLocation.address 
   let dropOffCity = ride.dropoffLocation.city
   let dropOffState = ride.dropoffLocation.state 
